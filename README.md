@@ -12,3 +12,14 @@ The number of users is passed as a command line argument.
 
 ---
 
+## Data Structures
+
+### User Structure
+
+```mermaid
+classDiagram
+class User {
+  char username[11]
+  int level
+  enum faction
+}

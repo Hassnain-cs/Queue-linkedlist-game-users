@@ -39,7 +39,7 @@ int enqueue(Queue* q, User user) {
     return 0;
 }
 
-// Function to dequeue a user from the queue
+// Function to dequeue a user from the queue (dequeuing the user)
 int dequeue(Queue* q, User* user) {
 
     if (isEmpty(q)) {
